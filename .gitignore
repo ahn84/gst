@@ -1,0 +1,21 @@
+# Test binaries and profiles (go test -c, -cpuprofile, -memprofile)
+*.test
+*.prof
+*.pprof
+
+# Coverage output (go test -coverprofile)
+*.out
+coverage.*
+
+# Benchmark results saved for benchstat comparisons
+*.bench
+
+# Local workspace files
+go.work
+go.work.sum
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
